@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			display: flex;
+			flex-direction: row;
+			/* flex-wrap: wrap; */
+			align-items: flex-start;
+			justify-content: space-between;
+		}
+
+		.left {
+			flex-basis: 30%;
+			margin-right: 20px;
+			/* background-color: aqua; */
+			display: flex;
+			flex-direction: column;
+		}
+
+		.right {
+			flex-basis: 65%;
+		}
+
+		h1 {
+			margin-top: 0;
+			font-size: 36px;
+			font-weight: bold;
+		}
+
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		h3 {
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		/* .skills {
+			margin-top: 20px;
+			height: 100vh;
+		}
+
+		.skills_gpt{
+			display: flex;
+			flex-direction: column;
+			background-color: #333;
+			height: fit-content;
+		}
+
+		.skill_gpt_left{
+			flex-basis: 50%;
+			margin-right: auto;
+			background-color: #ddd;
+			padding: 5px 10px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+
+		.skill_gpt_right{
+			flex-basis: 50%;
+			margin-left: auto;
+			background-color: #ddd;
+			padding: 5px 10px;
+			margin-left: auto;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			font-size: 14px;
+		}
+
+
+		.row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: antiquewhite;
+		} */
+
+		/* .skill {
+			display: inline-block;
+			background-color: #ddd;
+			padding: 5px 10px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			font-size: 14px;		
+		}
+
+
+		.child1, .child2 {
+			flex-basis: 50%;
+			padding: 20px;
+			background-color: #f5f5f5;
+			border: 1px solid #ccc;
+		} */
+
+		.skills{
+			width: 100%;
+			height: fit-content;
+			display: flex;
+			flex-direction: column;
+			/* justify-content: space-evenly; */
+			flex-wrap: wrap;
+		}
+
+		.skill{
+			flex-direction: row;
+			display: flex;
+			width: 100%;
+		}
+
+		
+
+		.skills_left{
+			display: flex;
+			flex-direction: column;
+			background-color: yellow;
+			height: 100%;
+			justify-content: space-evenly;
+		}
+
+		.skills_right{
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			justify-content: space-evenly;
+		}
+
+		.each_skill{
+			padding: 10px;
+			margin: 6px;
+			width: auto;
+			height: 10px;
+			background-color: #ddd;
+			border:#333 solid;
+			width: 100%;
+			height: 10px;
+			display: flex;
+			justify-content: center;
+			border-radius: 5px;
+		}
+
+		.each_skill:last-child:nth-child(odd){
+    		width: 26%;
+		}
+
+		.each_skill
+
+		.qualifications {
+			margin-top: 20px;
+		}
+
+		.projects {
+			margin-top: 20px;
+		}
+
+		.project {
+			margin-bottom: 10px;
+		}
+
+		.project h4 {
+			margin-bottom: 0;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.project p {
+			margin-top: 5px;
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<img src="https://res.cloudinary.com/dlj1ioeqa/image/upload/v1683884800/Ranjitha_pjklmp.jpg" alt="Profile Picture" width="200">
+			<h1>Ranjitha B R</h1>
+			<p>Email: ranjitha.rajashekara@gmail.com</p>
+			<p>Phone: +91 8861563863</p><br>
+			<h3>SKILLS</h3>
+			<div class="skills">
+				<div class="skill">
+					<div class="each_skill">HTML</div>
+					<div class="each_skill">CSS</div>
+				</div>
+				<div class="skill">
+					<div class="each_skill">JS</div>
+					<div class="each_skill">React</div>
+				</div>
+				<div class="skill">
+					<div class="each_skill">Node JS</div>
+					<div class="each_skill">MongoDB</div>
+				</div>
+				<div class="skill">
+					<div class="each_skill">SQL</div>
+					<div class="each_skill">AWS</div>
+				</div>
+				<div class="skill">
+					<div class="each_skill">Git</div>
+					<div class="each_skill">Python</div>
+				</div>
+				<div class="skill">
+					<div class="each_skill">Keras</div>
+					<div class="each_skill">Tensorflow</div>
+				</div>
+			</div>
+			<h3>Projects: </h3>
+				<p>https://teammsv.com/</p>
+				<p>https://moobeyond.com/home</p>
+				<p>https://thebenchmarkindia.com/</p>
+				<p>https://video.securitycentric.net/</p>
+				<p>https://makethisblue.com/</p>
+			
+			<h3>Hobbies</h3>
+			<ul>
+				<li>Learning German</li><br>
+				<li>Udemy Course Instructor</li><br>
+				<li>Making youtube videos</li><br>
+				<li>Singing</li><br>
+				<li>Travelling</li>
+			</ul>
+			<h3>Languages</h3>
+			<ul>
+				<li>English</li><br>
+				<li>Kannada</li><br>
+				<li>Hindi</li><br>
+				<li>German</li><br>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>SOFTWARE ENGINEER</h2>
+			<p>Over 3 years experience developing applications using React js, MongoDB, Serverless, Python.
+				Experience on AWS, Serverless, microservices, lambda, S3 bucket, EC2</p>
+			<h3>Experience</h3>
+			<div class="experience">
+				<h4>Full Stack Developer at Rayabhari Technologies</h4>
+				<p>May 2022 - Present</p>
+				<ul>
+					<li>Developing user interface using HTML, CSS, React.</li>
+					<li>Built complex optimized queries and aggregation pipeline to extract data from MongoDB.</li>
+					<li>Developed restful web services and middleware configurations using Node js, Express.js.</li>
+					<li>Worked on video streaming using WEBRTC and web sockets using React and Nodejs.</li>
+					<li>Integrating shiprocket.</li>
+					<li>Google recaptcha</li>
+					<li>Storing data in S3.</li>
+					<li>RSA and AES encryption and decrption for messages. </li>
+					<li>Implemented email templates using HTML, CSS and JS. </li>
+				</ul>
+				<h4>Software Engineer at Claysol Media Labs</h4>
+				<p>April 2021 - April 2022</p>
+				<ul>
+					<li>Built complex optimized queries and aggregation pipeline to extract data from MongoDB.</li>
+					<li>Optimized MongoDB queries to give better performance using simple, compound and partial indexes.</li>
+					<li>Used Serverless framework to build lambda functions and deployed lambda functions on AWS.</li>
+					<li>Created serverless.yml files to write lambda functions.</li>
+					<li>Used postman to test APIs.</li>
+					<li>Developed restful web services and middleware configurations using Node js, Express.js.</li>
+					<li>Worked with JSON web tokens and Passport for authentication and authorization security configurations using Node js.</li>
+					<li>Experience in npm commands and using package.json for managing dependencies and dev-dependencies for node js applications.</li>
+					<li>Experienced MERN stack development (Mongo DB, Express, Node, React).</li>
+					<li>Extensively worked with making calls to APIS to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS manipulation.</li>
+					<li>Used GitHub as code repository and GIT for version control.</li>
+					<li>Deployed React js and serverlessJS project on AWS.</li>
+				</ul>
+				<h4>Intern at Claysol Media Labs</h4>
+				<p>October 2019 - April 2020</p>
+				<ul>
+					<li>Recommendation system using particle swarm optimization using python.</li>
+					<li>Chatbot using Ln2SQL library and keras</li>
+					<li>Experience building ML models using keras and tensorflow.</li>
+				</ul>
+				<h4>Intern at Boolog Private Ltd</h4>
+				<p>2 Months</p>
+				<ul>
+					<li>Android app development using android studio in Boolog Private Lmt company</li>
+				</ul>
+				<h4>Intern at Wikipedia</h4>
+				<p>2 Months</p>
+				<ul>
+					<li>Content development for Kannada Wikipedia pages.</li>
+				</ul>
+			</div>
+			<h3>Courses And Certification</h3>
+			<div class="experience">
+				<!-- <h4>Student</h4> -->
+				<ul>
+					<li>https://university.mongodb.com/certification/certificate/608538969</li>
+					<li>https://www.udemy.com/certificate/UC-09cf08a5-bdf8-4057-82b1-1fb090e16389/</li>
+				</ul>
+				<h4>Instructor</h4>
+				<ul>
+					<li>https://www.udemy.com/course/mongodb-basics-for-beginners/?referralCode=77AC4D220EABD56E7FD9</li>
+					<li>https://www.udemy.com/course/draft/4905286/?referralCode=516DD741B23AF0327DFF</li>
+				</ul>
+			</div>
+			<h3>EDUCATION</h3>
+			<div class="experience">
+				<!-- <h4>Student</h4> -->
+				<ul>
+					<li>Msc Computer Science Christ University Bangalore - 67.3%</li>
+					<li>BSc Computer Science, Math’s, Stats - Chist Univeristy Bangalore - 73.39% </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
